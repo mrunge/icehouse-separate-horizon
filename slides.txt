@@ -1,0 +1,41 @@
+:sip-help: true
+
+.. title:: Separate Horizon and OpenStack Dashboard
+
+----
+
+Separate Horizon and OpenStack Dashboard
+========================================
+
+Matthias Runge <mrunge@redhat.com>
+----------------------------------
+
+OpenStack Summit Hong Kong, Fall 2013
+
+----
+
+Scope
+-----
+
+* Why?
+* Horizon is the framework
+* OpenStack Dashboard the reference implementation
+* most commits involve just one part
+
+----
+
+Reasons not to split
+--------------------
+
+* overhead when coordinating changes to both projects
+* overhead for initial separation
+* is horizon stable enough?
+
+----
+
+Speaking on favor of dividing
+-----------------------------
+
+* promoting horizon as a framework might attract new developers
+* build dashboards based on restful services
+* not necessary to enable creation of a dashboard for OpenStack to be consumed by  mobile users
