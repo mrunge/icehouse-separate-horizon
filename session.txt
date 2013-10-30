@@ -1,0 +1,24 @@
+Horizon provides a framework to provide a dashboard consuming restful services
+openstack dashboard is the sample implementation.
+
+those two packages can be seen independently, in fact, commits often just 
+involve openstack_dashboard, and not so often Horizon.
+Still, there are patches, inflicting both, like to recent one:
+"Avoid discarding precision of metering data". Allover all, horizon is a more
+slow moving target, compared with e.g nova or even with openstack_dashboard.
+
+speaking against separation of both: 
+- overhead when coordinating changes on both
+- overhead for initial separation
+
+speaking in favor of dividing:
+- promoting horizon as a framework on top of Django to implement Dashboards
+which consume RESTful services. One could think of implementing a Dashboard
+solely targeted for Swift, to stay in OpenStack context, but I think, you'll
+have other examples handy.
+- attract other developers to work with Horizon even without the need of
+installing OpenStack at all
+
+- do we need another ptl? No, I don't think so, right now.
+- 
+
