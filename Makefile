@@ -1,6 +1,6 @@
 all: index.html
 
-index.html: session.txt
+index.html: slides.txt
 	hovercraft slides.txt .
 
 

@@ -1,4 +1,4 @@
-:sip-help: true
+:skip-help: true
 
 .. title:: Separate Horizon and OpenStack Dashboard
 
