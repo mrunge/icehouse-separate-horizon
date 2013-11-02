@@ -38,4 +38,19 @@ Speaking on favor of dividing
 
 * promoting horizon as a framework might attract new developers
 * build dashboards based on restful services
-* not necessary to enable creation of a dashboard for OpenStack to be consumed by  mobile users
+* not necessary to enable creation of a dashboard for OpenStack to be consumed 
+by  mobile users
+
+----
+
+Next
+----
+
+* Blueprint is filed, linked to the session proposal
+* Do we need a cool name for OpenStack Dashboard? 
+* Or should we rename the python package horizon?
+
+----
+
+Input from discussion should be taken to the etherpad
+http://...Icehouse-Separate-Dashboard-Horizon
