@@ -38,8 +38,7 @@ Speaking on favor of dividing
 
 * promoting horizon as a framework might attract new developers
 * build dashboards based on restful services
-* not necessary to enable creation of a dashboard for OpenStack to be consumed 
-by  mobile users
+* not necessary to enable creation of a dashboard for OpenStack to be consumed by  mobile users
 
 ----
 
