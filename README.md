@@ -1,4 +1,5 @@
 icehouse-separate-horizon
 =========================
 
-Icehouse session to separate horizon and dashboard
+This holds the slides for the OpenStack Summit design session fot Icehouse
+release to discuss the separation of horizon and openstack-dashboard

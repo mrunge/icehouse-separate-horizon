@@ -10,7 +10,7 @@ Separate Horizon and OpenStack Dashboard
 Matthias Runge <mrunge@redhat.com>
 ----------------------------------
 
-OpenStack Summit Hong Kong, Fall 2013
+Nov 5th, 2013 OpenStack Summit Hong Kong
 
 ----
 
@@ -20,7 +20,7 @@ Scope
 * This is intended to get to a decision wether to split the two packages
 * Horizon is the framework
 * OpenStack Dashboard the reference implementation
-* most commits involve just one part
+* most commits involve just horizon or openstack_dashboard
 
 ----
 
@@ -34,13 +34,18 @@ Reasons not to split
 
 ----
 
-Speaking on favor of dividing
+Speaking on favor of division
 -----------------------------
 
-* promoting horizon as a framework might attract new developers
-* build dashboards based on restful services
-* not necessary to enable creation of a mobile dashboard for OpenStack
+* promoting horizon as a standalone framework might attract new people
+* build dashboards based on RESTful services unconnected to OpenStack
+* New projects like creation of a mobile dashboard for OpenStack
 * keeping code basis smaller
+* most code is already separated, besides
+
+  * doc/
+  * tools/
+  * License, README.rst, run_tests.sh, setup.py, tox.ini, {test-,}requirements.txt
 
 ----
 
@@ -48,9 +53,8 @@ Next
 ----
 
 * Blueprint is filed, linked to the session proposal
-* New name for the split off component?
+* Open discussion:
 
-----
-
-* Input from discussion should be taken to the etherpad 
-* https://etherpad.openstack.org/p/Separate-Horizon-and-OpenStack-Dashboard
+    * New name for the split off component?
+    * Input from discussion should be taken to the etherpad 
+    * https://etherpad.openstack.org/p/Separate-Horizon-and-OpenStack-Dashboard
