@@ -17,7 +17,7 @@ OpenStack Summit Hong Kong, Fall 2013
 Scope
 -----
 
-* Why?
+* This is intended to get to a decision wether to split the two packages
 * Horizon is the framework
 * OpenStack Dashboard the reference implementation
 * most commits involve just one part
@@ -30,6 +30,7 @@ Reasons not to split
 * overhead when coordinating changes to both projects
 * overhead for initial separation
 * is horizon stable enough?
+* scare contributors away
 
 ----
 
@@ -38,7 +39,8 @@ Speaking on favor of dividing
 
 * promoting horizon as a framework might attract new developers
 * build dashboards based on restful services
-* not necessary to enable creation of a dashboard for OpenStack to be consumed by  mobile users
+* not necessary to enable creation of a mobile dashboard for OpenStack
+* keeping code basis smaller
 
 ----
 
@@ -46,10 +48,9 @@ Next
 ----
 
 * Blueprint is filed, linked to the session proposal
-* Do we need a cool name for OpenStack Dashboard? 
-* Or should we rename the python package horizon?
+* New name for the split off component?
 
 ----
 
-Input from discussion should be taken to the etherpad
-http://...Icehouse-Separate-Dashboard-Horizon
+* Input from discussion should be taken to the etherpad 
+* https://etherpad.openstack.org/p/Separate-Horizon-and-OpenStack-Dashboard
