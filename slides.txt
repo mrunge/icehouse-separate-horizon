@@ -20,7 +20,7 @@ Scope
 * This is intended to get to a decision wether to split the two packages
 * Horizon is the framework
 * OpenStack Dashboard the reference implementation
-* most commits involve just horizon or openstack_dashboard
+* most commits involve either horizon or openstack_dashboard
 
 ----
 
@@ -31,6 +31,7 @@ Reasons not to split
 * overhead for initial separation
 * is horizon stable enough?
 * scare contributors away
+* given, there are just a few contributors, a split might delay reviews
 
 ----
 
